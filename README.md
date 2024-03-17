@@ -1,7 +1,7 @@
 # Boston Housing Price Prediction
 This project aims to predict housing prices in Boston using machine learning techniques. The dataset used in this project contains various features such as crime rate, average number of rooms, accessibility to highways, and more, for different regions in Boston, along with the corresponding housing prices.
 
-- Dataset:
+## Dataset:
 The dataset used in this project is boston.csv. It consists of 506 rows and 15 columns. Below are the columns present in the dataset:
 
  - CRIM: Per capita crime rate by town
@@ -19,9 +19,9 @@ The dataset used in this project is boston.csv. It consists of 506 rows and 15 c
  - LSTAT: Percentage of lower status of the population
  - PRICE: Median value of owner-occupied homes in $1000s
 
-- Usage:
- - boston_housing_prediction.py: 
-  - This script performs the following tasks:
+## Usage:
+boston_housing_prediction.py: 
+This script performs the following tasks:
    - Data loading and preprocessing.
    - Exploratory data analysis (EDA) using visualizations.
    - Training linear regression models to predict housing prices.
